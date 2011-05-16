@@ -10,7 +10,6 @@
 		65D75E2413704255003BD71F /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1713704255003BD71F /* Block_private.h */; };
 		65D75E2513704255003BD71F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1913704255003BD71F /* config.h */; };
 		65D75E2613704255003BD71F /* data.c in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E1A13704255003BD71F /* data.c */; };
-		65D75E2713704255003BD71F /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1B13704255003BD71F /* Platform.h */; };
 		65D75E2813704255003BD71F /* runtime.c in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E1C13704255003BD71F /* runtime.c */; };
 		65D75E2913704255003BD71F /* ESBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1E13704255003BD71F /* ESBlock.h */; };
 		65D75E2A13704255003BD71F /* ESBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E1F13704255003BD71F /* ESBlock.m */; };
@@ -27,7 +26,6 @@
 		65D75E1813704255003BD71F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		65D75E1913704255003BD71F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		65D75E1A13704255003BD71F /* data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = data.c; sourceTree = "<group>"; };
-		65D75E1B13704255003BD71F /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
 		65D75E1C13704255003BD71F /* runtime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = runtime.c; sourceTree = "<group>"; };
 		65D75E1E13704255003BD71F /* ESBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBlock.h; sourceTree = "<group>"; };
 		65D75E1F13704255003BD71F /* ESBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBlock.m; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				65D75E1813704255003BD71F /* CMakeLists.txt */,
 				65D75E1913704255003BD71F /* config.h */,
 				65D75E1A13704255003BD71F /* data.c */,
-				65D75E1B13704255003BD71F /* Platform.h */,
 				65D75E1C13704255003BD71F /* runtime.c */,
 			);
 			name = BlocksRuntime;
@@ -134,7 +131,6 @@
 				AA747D9F0F9514B9006C5449 /* ESBlockRuntime_Prefix.pch in Headers */,
 				65D75E2413704255003BD71F /* Block_private.h in Headers */,
 				65D75E2513704255003BD71F /* config.h in Headers */,
-				65D75E2713704255003BD71F /* Platform.h in Headers */,
 				65D75E2913704255003BD71F /* ESBlock.h in Headers */,
 				65D75E2B13704255003BD71F /* ESBlocksRuntimeInitializer.h in Headers */,
 			);
