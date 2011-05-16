@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65D75E2413704255003BD71F /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1713704255003BD71F /* Block_private.h */; };
+		65D75E2513704255003BD71F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1913704255003BD71F /* config.h */; };
+		65D75E2613704255003BD71F /* data.c in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E1A13704255003BD71F /* data.c */; };
+		65D75E2713704255003BD71F /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1B13704255003BD71F /* Platform.h */; };
+		65D75E2813704255003BD71F /* runtime.c in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E1C13704255003BD71F /* runtime.c */; };
+		65D75E2913704255003BD71F /* ESBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1E13704255003BD71F /* ESBlock.h */; };
+		65D75E2A13704255003BD71F /* ESBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E1F13704255003BD71F /* ESBlock.m */; };
+		65D75E2B13704255003BD71F /* ESBlocksRuntimeInitializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E2013704255003BD71F /* ESBlocksRuntimeInitializer.h */; };
+		65D75E2C13704255003BD71F /* ESBlocksRuntimeInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E2113704255003BD71F /* ESBlocksRuntimeInitializer.m */; };
+		65D75E2D13704255003BD71F /* NSArray+BlocksWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E2213704255003BD71F /* NSArray+BlocksWorkaround.m */; };
+		65D75E2E13704255003BD71F /* UIView+BlocksWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E2313704255003BD71F /* UIView+BlocksWorkaround.m */; };
+		AA747D9F0F9514B9006C5449 /* ESBlockRuntime_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ESBlockRuntime_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65D75E1713704255003BD71F /* Block_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_private.h; sourceTree = "<group>"; };
+		65D75E1813704255003BD71F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		65D75E1913704255003BD71F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		65D75E1A13704255003BD71F /* data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = data.c; sourceTree = "<group>"; };
+		65D75E1B13704255003BD71F /* Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Platform.h; sourceTree = "<group>"; };
+		65D75E1C13704255003BD71F /* runtime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = runtime.c; sourceTree = "<group>"; };
+		65D75E1E13704255003BD71F /* ESBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBlock.h; sourceTree = "<group>"; };
+		65D75E1F13704255003BD71F /* ESBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBlock.m; sourceTree = "<group>"; };
+		65D75E2013704255003BD71F /* ESBlocksRuntimeInitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBlocksRuntimeInitializer.h; sourceTree = "<group>"; };
+		65D75E2113704255003BD71F /* ESBlocksRuntimeInitializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBlocksRuntimeInitializer.m; sourceTree = "<group>"; };
+		65D75E2213704255003BD71F /* NSArray+BlocksWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BlocksWorkaround.m"; sourceTree = "<group>"; };
+		65D75E2313704255003BD71F /* UIView+BlocksWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BlocksWorkaround.m"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ESBlockRuntime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBlockRuntime_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libESBlockRuntime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libESBlockRuntime.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libESBlockRuntime.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ESBlockRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = ESBlockRuntime;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65D75E1613704255003BD71F /* BlocksRuntime */,
+				65D75E1D13704255003BD71F /* BlocksWorkarounds */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ESBlockRuntime_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		65D75E1613704255003BD71F /* BlocksRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				65D75E1713704255003BD71F /* Block_private.h */,
+				65D75E1813704255003BD71F /* CMakeLists.txt */,
+				65D75E1913704255003BD71F /* config.h */,
+				65D75E1A13704255003BD71F /* data.c */,
+				65D75E1B13704255003BD71F /* Platform.h */,
+				65D75E1C13704255003BD71F /* runtime.c */,
+			);
+			name = BlocksRuntime;
+			path = ESBlockRuntime/BlocksRuntime;
+			sourceTree = "<group>";
+		};
+		65D75E1D13704255003BD71F /* BlocksWorkarounds */ = {
+			isa = PBXGroup;
+			children = (
+				65D75E1E13704255003BD71F /* ESBlock.h */,
+				65D75E1F13704255003BD71F /* ESBlock.m */,
+				65D75E2013704255003BD71F /* ESBlocksRuntimeInitializer.h */,
+				65D75E2113704255003BD71F /* ESBlocksRuntimeInitializer.m */,
+				65D75E2213704255003BD71F /* NSArray+BlocksWorkaround.m */,
+				65D75E2313704255003BD71F /* UIView+BlocksWorkaround.m */,
+			);
+			name = BlocksWorkarounds;
+			path = ESBlockRuntime/BlocksWorkarounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* ESBlockRuntime_Prefix.pch in Headers */,
+				65D75E2413704255003BD71F /* Block_private.h in Headers */,
+				65D75E2513704255003BD71F /* config.h in Headers */,
+				65D75E2713704255003BD71F /* Platform.h in Headers */,
+				65D75E2913704255003BD71F /* ESBlock.h in Headers */,
+				65D75E2B13704255003BD71F /* ESBlocksRuntimeInitializer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* ESBlockRuntime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ESBlockRuntime" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESBlockRuntime;
+			productName = ESBlockRuntime;
+			productReference = D2AAC07E0554694100DB518D /* libESBlockRuntime.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ESBlockRuntime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* ESBlockRuntime */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* ESBlockRuntime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D75E2613704255003BD71F /* data.c in Sources */,
+				65D75E2813704255003BD71F /* runtime.c in Sources */,
+				65D75E2A13704255003BD71F /* ESBlock.m in Sources */,
+				65D75E2C13704255003BD71F /* ESBlocksRuntimeInitializer.m in Sources */,
+				65D75E2D13704255003BD71F /* NSArray+BlocksWorkaround.m in Sources */,
+				65D75E2E13704255003BD71F /* UIView+BlocksWorkaround.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/ESBlockRuntime.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ESBlockRuntime_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ESBlockRuntime;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/ESBlockRuntime.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ESBlockRuntime_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = ESBlockRuntime;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ESBlockRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ESBlockRuntime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
