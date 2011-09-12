@@ -450,10 +450,13 @@ static void _Block_byref_release(const void *arg) {
 #pragma mark SPI/API
 #endif /* if 0 */
 
+extern void *_ESBlock_copy(const void *arg);
+
 void *_ESBlock_copy(const void *arg) {
     return _Block_copy_internal(arg, WANTS_ONE);
 }
 
+extern void _ESBlock_release(const void *arg);
 
 // API entry point to release a copied Block
 void _ESBlock_release(const void *arg) {
@@ -689,6 +692,7 @@ const char *_Block_dump(const void *block) {
     return buffer;
 }
 
+extern const char *_Block_byref_dump(struct Block_byref *src);
 
 const char *_Block_byref_dump(struct Block_byref *src) {
     static char buffer[256];

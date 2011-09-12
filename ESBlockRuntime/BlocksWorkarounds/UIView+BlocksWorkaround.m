@@ -105,7 +105,7 @@ typedef void (^DidFinishAnimation) ( BOOL finished_ );
                 completion:( void (^)( BOOL finished_ ) )completion_
 {
    [ self animateWithDuration: duration_
-                        delay: 0.0
+                        delay: 0.
                       options: UIViewAnimationOptionCurveEaseInOut
                    animations: animations_
                    completion: completion_ ];

@@ -11,14 +11,14 @@ static NSInteger compareObjectsWithBlock( id obj1_, id obj2_, void* block_contex
    return block_( obj1_, obj2_ );
 }
 
-@interface ESArrrayBlockWorkarounds : NSObject
+@interface ESArrayBlockWorkarounds : NSObject
 
 +(void)addMethodIfNeedWithSelector:( SEL )selector_
                            toClass:( Class )class_;
 
 @end
 
-@implementation ESArrrayBlockWorkarounds
+@implementation ESArrayBlockWorkarounds
 
 +(void)addMethodIfNeedWithSelector:( SEL )selector_
                            toClass:( Class )class_
@@ -93,14 +93,14 @@ static NSInteger compareObjectsWithBlock( id obj1_, id obj2_, void* block_contex
 
 +(void)load
 {
-   [ ESArrrayBlockWorkarounds addMethodIfNeedWithSelector: @selector( enumerateObjectsUsingBlock: )
-                                                  toClass: [ NSArray class ] ];
-   [ ESArrrayBlockWorkarounds addMethodIfNeedWithSelector: @selector( indexOfObjectPassingTest: )
-                                                  toClass: [ NSArray class ] ];
-   [ ESArrrayBlockWorkarounds addMethodIfNeedWithSelector: @selector( indexesOfObjectsPassingTest: )
-                                                  toClass: [ NSArray class ] ];
-   [ ESArrrayBlockWorkarounds addMethodIfNeedWithSelector: @selector( sortedArrayUsingComparator: )
-                                                  toClass: [ NSArray class ] ];      
+   [ self addMethodIfNeedWithSelector: @selector( enumerateObjectsUsingBlock: )
+                              toClass: [ NSArray class ] ];
+   [ self addMethodIfNeedWithSelector: @selector( indexOfObjectPassingTest: )
+                              toClass: [ NSArray class ] ];
+   [ self addMethodIfNeedWithSelector: @selector( indexesOfObjectsPassingTest: )
+                              toClass: [ NSArray class ] ];
+   [ self addMethodIfNeedWithSelector: @selector( sortedArrayUsingComparator: )
+                              toClass: [ NSArray class ] ];      
 }
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6551FFAA141E889700C3AFC7 /* NSDictionary+BlocksWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 6551FFA8141E889700C3AFC7 /* NSDictionary+BlocksWorkaround.m */; };
 		65D75E2413704255003BD71F /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1713704255003BD71F /* Block_private.h */; };
 		65D75E2513704255003BD71F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D75E1913704255003BD71F /* config.h */; };
 		65D75E2613704255003BD71F /* data.c in Sources */ = {isa = PBXBuildFile; fileRef = 65D75E1A13704255003BD71F /* data.c */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6551FFA8141E889700C3AFC7 /* NSDictionary+BlocksWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BlocksWorkaround.m"; sourceTree = "<group>"; };
 		65D75E1713704255003BD71F /* Block_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_private.h; sourceTree = "<group>"; };
 		65D75E1813704255003BD71F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		65D75E1913704255003BD71F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				65D75E2113704255003BD71F /* ESBlocksRuntimeInitializer.m */,
 				65D75E2213704255003BD71F /* NSArray+BlocksWorkaround.m */,
 				65D75E2313704255003BD71F /* UIView+BlocksWorkaround.m */,
+				6551FFA8141E889700C3AFC7 /* NSDictionary+BlocksWorkaround.m */,
 			);
 			name = BlocksWorkarounds;
 			path = ESBlockRuntime/BlocksWorkarounds;
@@ -192,6 +195,7 @@
 				65D75E2C13704255003BD71F /* ESBlocksRuntimeInitializer.m in Sources */,
 				65D75E2D13704255003BD71F /* NSArray+BlocksWorkaround.m in Sources */,
 				65D75E2E13704255003BD71F /* UIView+BlocksWorkaround.m in Sources */,
+				6551FFAA141E889700C3AFC7 /* NSDictionary+BlocksWorkaround.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
